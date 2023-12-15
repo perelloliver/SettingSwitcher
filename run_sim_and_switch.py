@@ -28,11 +28,11 @@ import switcher
 
 ###Add filepath to any chosen env data
 ###Update this for GIT
-with open ('/content/environment.json') as f:
+with open ('environment.json') as f:
   data = json.load(f)
 
 ##REMOVE MY API KEY AFTER TESTING!
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "YOUR API KEY HERE"
 
 #Set our LLM
 LLM = ChatOpenAI(model_name = "gpt-3.5-turbo-16k-0613",max_tokens=1500)
