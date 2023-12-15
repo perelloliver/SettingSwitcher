@@ -5,7 +5,12 @@ This page is in progress and will be launched shortly prior to the workshop.
 
 Contents:
 
-- Base testing environments
+- Testing environment
 - Example notebook
-- Agent
-- Points for future work
+- Agent (switcher.py)
+- All relevant modules for agent (locator, plans, etc)
+
+ 
+Points for future work:
+
+- 
